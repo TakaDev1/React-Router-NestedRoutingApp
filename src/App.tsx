@@ -6,7 +6,7 @@ import Settings from "./pages/Settings";
 
 const App = () => {
   return (
-    <div>
+    <div className="min-h-screen bg-gray-800 flex flex-col items-center justify-center">
       <BrowserRouter>
         <h1>React-Router-NestedRoutingApp</h1>
         <Routes>
