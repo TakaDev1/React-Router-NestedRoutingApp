@@ -8,6 +8,7 @@ const App = () => {
   return (
     <div>
       <BrowserRouter>
+        <h1>React-Router-NestedRoutingApp</h1>
         <Routes>
           <Route path="/dashboard" element={<DashboardLayout />}>
             <Route path="profile" element={<Profile />} />
